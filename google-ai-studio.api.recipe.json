@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "google-ai-studio.api",
   "providerType": "api",
   "id": "api_google_ai_studio",
   "title": "Google AI Studio",
   "protocol": "openai",
-  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai"
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "musicGeneration": {
+    "operation": "google-lyria",
+    "models": [
+      "lyria-3-clip-preview",
+      "lyria-3.5"
+    ]
+  }
 }
