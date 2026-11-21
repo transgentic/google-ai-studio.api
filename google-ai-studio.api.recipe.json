@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "repository": "google-ai-studio.api",
+  "providerType": "api",
+  "id": "api_google_ai_studio",
+  "title": "Google AI Studio",
+  "protocol": "openai",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai"
+}
